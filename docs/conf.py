@@ -32,7 +32,7 @@ html_css_files = [
 'css/custom.css',
 ]
 
-custom.css
+
 img[alt="pic"] {
 max-width: 600px;
 display: block;
@@ -53,16 +53,5 @@ from recommonmark.transform import AutoStructify
 
     Update theme:
     html_theme = 'sphinx_rtd_theme'
+ 
 
-# These folders are copied to the documentation's HTML output
-html_static_path = ['_static']
-# These paths are either relative to html_static_path
-# or fully qualified paths (eg. https://...)
-html_css_files = [
-'css/custom.css',
-]
-
-img[alt="pic"] {
-max-width: 600px;
-display: block;
-}
