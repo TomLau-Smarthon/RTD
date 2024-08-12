@@ -17,8 +17,7 @@ build:
   os: ubuntu-20.04  # <- add this line
   tools:
     python: 3.12
-      install:
-      - requirements: docs/requirements.txt
+
 formats:
 - pdf
 # Optionally set the version of Python and requirements required to build your docs
